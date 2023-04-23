@@ -1,0 +1,54 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f4f1ea;
+    color: #4c4c4c;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #e5a03c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #b09c7d;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e5a03c;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f1ea;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:hover {
+    background-color: #f3dbb6;
+}
+

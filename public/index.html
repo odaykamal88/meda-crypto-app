@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDA - Bitcoin and USD Stablecoins for Businesses in MENA</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="rainIntegration.js"></script>
+    <script src="tarabutGatewayIntegration.js"></script>
+    <script src="https://embed.typeform.com/embed.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>MEDA</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="admin-dashboard.html">Admin Dashboard</a></li>
+                <li><a href="#employee-registration">Employee Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+<section class="hero">
+    <div class="hero-text">
+        <h1>Bitcoin and USD Stablecoins for Businesses in MENA</h1>
+        <p>Empowering businesses in the Middle East and North Africa with easy access to Bitcoin and USD stablecoins.</p>
+        <a href="signup.html" class="cta">Get Started</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About MEDA</h2>
+    <p>MEDA is a platform that provides businesses in the Middle East and North Africa with easy access to Bitcoin and USD stablecoins. We aim to simplify the process of using cryptocurrencies for transactions, investments, and cross-border payments, helping businesses grow and thrive in the digital economy.</p>
+</section>
+
+<section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-container">
+        <div class="feature">
+            <img src="exchange-icon.png" alt="Exchange">
+            <h3>Instant Exchange</h3>
+            <p>Seamlessly exchange between Bitcoin, USD stablecoins, and local currencies.</p>
+        </div>
+        <div class="feature">
+            <img src="wallet-icon.png" alt="Wallet">
+            <h3>Secure Wallet</h3>
+            <p>Store your cryptocurrencies in our secure, easy-to-use wallet.</p>
+        </div>
+        <div class="feature">
+            <img src="payment-icon.png" alt="Payment">
+            <h3>Payments & Invoicing</h3>
+            <p>Send and receive payments in Bitcoin and USD stablecoins with ease.</p>
+        </div>
+    </div>
+</section>
+
+<section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-container">
+        <div class="pricing-card">
+            <h3>Basic</h3>
+            <p class="price">Free</p>
+            <ul>
+                <li>Access to Exchange</li>
+                <li>Secure Wallet</li>
+                <li>Email Support</li>
+            </ul>
+            <a href="signup.html" class="cta">Sign Up</a>
+        </div>
+        <div class="pricing-card">
+            <h3>Pro</h3>
+            <p class="price">$49/month</p>
+            <ul>
+                <li>Basic Features</li>
+                <li>Priority Support</li>
+                <li>API Access</li>
+                <li>Lower Exchange Fees</li>
+            </ul>
+           
+<!-- Rest of the HTML code from the previous response -->
+
+<script>
+    // Rain.com API integration
+    async function purchaseCrypto(asset, amount) {
+        const result = await rainIntegration.purchase(asset, amount);
+        return result;
+    }
+
+    // Tarabut Gateway API integration
+    async function bankTransaction(accountFrom, accountTo, amount) {
+        const result = await tarabutGatewayIntegration.transfer(accountFrom, accountTo, amount);
+        return result;
+    }
+</script>
+<!-- Rest of the HTML code from the previous response -->
+
+<section id="employee-registration" class="employee-registration">
+    <h2>Employee Registration</h2>
+    <div class="typeform-widget" data-url="https://yourtypeformid.typeform.com/to/xxxxxx" style="width: 100%; height: 500px;"></div>
+</section>
+
+<section class="whatsapp-bot">
+    <h2>Need Assistance? Chat with our WhatsApp Bot</h2>
+    <a href="https://wa.me/1234567890?text=I%20need%20help%20with%20MEDA" target="_blank" class="whatsapp-link">
+        <img src="whatsapp-icon.png" alt="WhatsApp">
+    </a>
+</section>
+
+<script>
+    // Rain.com API integration and Tarabut Gateway API integration
+    // (same as previous response)
+
+    // Initialize Typeform
+    (function() {
+        var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+            js = ce.call(d, "script");
+            js.id = id;
+            js.src = b + "embed.js";
+            q = gt.call(d, "script")[0];
+            q.parentNode.insertBefore(js, q)
+        }
+    })()
+</script>
+
